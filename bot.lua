@@ -6,8 +6,8 @@ notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 chats = {}
 day = 86400
-bot_id = 196913743 -- Your Bot USER_ID
-sudo_users = {56693692,000000000--[[YOUE ID :|]]}
+bot_id = 215184910 -- Your Bot USER_ID
+sudo_users = {205906514--[[YOUE ID :|]]}
   -----------------------------------------------------------------------------------------------
                                      -- start functions --
   -----------------------------------------------------------------------------------------------
@@ -2304,7 +2304,7 @@ local user_msgs = database:get('user:msgs'..msg.chat_id_..':'..msg.sender_user_i
 	          .."*______________________*\n"
 	          .."*Bot Commands* ~> `"..mute_cmd.."`\n"
 	          .."*Group Language* ~> *EN*\n"
-	          .."*Expire date* ~> `"..exp_dat.."`\n"
+	          .."*Expire date* ~> `"..exp_dat.."`\nSwift Bot , Test Version :D"
          send(msg.chat_id_, msg.id_, 1, TXT, 1, 'md')
     end
 	-----------------------------------------------------------------------------------------------
